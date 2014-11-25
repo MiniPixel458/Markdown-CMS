@@ -1,0 +1,92 @@
+#topmenu
+{
+	background: black;
+	padding: 10px;
+	text-align: center;
+}
+.menulink
+{
+	color: white;
+	text-decoration: none;
+}
+body
+{
+	padding: 0px;
+margin: 0px;
+}
+#topmenu table
+{
+	display: inline-block;
+	
+
+}
+#topmenu table td
+{
+	width:200px;
+}
+.contenu
+{
+	text-align: center;
+}
+.contenu table
+{
+	width: 70%;
+	display: inline-table;
+	margin: 50px;
+	border-collapse: collapse;
+	border : dashed 1px;
+}
+.contenu table tr
+{
+	border-bottom: solid 1px;
+}
+.contenu table tr:last-child
+{
+	border-bottom: none;
+}
+.CodeMirror
+{
+	text-align: left;
+	border: dashed 1px;
+	width: 50%;
+	float: left;
+	display: inline-block;
+}
+code
+{
+	border: dashed 1px;
+border-radius: 5px;
+}
+.menupanel
+{
+	width: 20%;
+height: 100%;
+float: left;
+padding: 10px;
+}
+ul
+{
+	margin:0px;
+}
+.li
+{
+	list-style:none;
+}
+.liopen
+{
+	width: 11px;
+	height: 11px;
+	display: inline-block;
+	background: url('../images/puce-down.png');
+}
+.liclose
+{
+	width: 11px;
+	height: 11px;
+	display: inline-block;
+	background: url('../images/puce.png');
+}
+.submenu.close
+{
+	display: none;
+}
