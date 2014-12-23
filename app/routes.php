@@ -35,3 +35,4 @@ Route::get('{slug}',function($slug){
 	$article = DB::table('Article')->where('slug',$slug)->first();
 	return View::make('render',array('article'=>$article));
 });
+
